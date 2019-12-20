@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  spa:
+    build: .
+    volumes:
+      - ./build:/usr/src/frontend/build
